@@ -9,7 +9,7 @@ import top.yusirx.mc.senbai.item.ModItemGroup;
 
 import java.util.HashMap;
 
-public final class ItemRegistry {
+public final class MusicDiscRegistry {
 
     private static final HashMap<String, Item> ITEMS = new HashMap<>();
     private static final FabricItemSettings DISC_SETTINGS = new FabricItemSettings().maxCount(1).group(ModItemGroup.SENBAI).rarity(Rarity.RARE);
@@ -18,7 +18,9 @@ public final class ItemRegistry {
         if (!ITEMS.isEmpty()) {
             return;
         }
+        //创建id为music_gxfc,时长为199秒的唱片
         createAndRegisterDisc("music_gxfc", 199);
+        //添加更多
     }
 
     public static void createAndRegisterDisc(String id, int length) {

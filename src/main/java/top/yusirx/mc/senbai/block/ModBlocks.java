@@ -14,8 +14,11 @@ import top.yusirx.mc.senbai.SenBaiItemsMod;
 import top.yusirx.mc.senbai.item.ModItemGroup;
 
 public class ModBlocks {
+    //创建方块-- 一坨雪
     public static final Block shit_block = registerBlock("shit_block",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(0.1f), UniformIntProvider.create(50, 100)), ModItemGroup.SENBAI);//一坨雪
+            new OreBlock(FabricBlockSettings.of(Material.METAL)
+            .strength(0.01f), UniformIntProvider
+            .create(50, 100)), ModItemGroup.SENBAI);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
