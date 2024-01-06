@@ -13,6 +13,7 @@ public class SenBaiItemsMod implements ModInitializer {
     public static Identifier ID(String path) {
         return new Identifier(SenBaiItemsMod.MOD_ID, path);
     }
+
     public static final Logger LOGGER = LoggerFactory.getLogger("senbaiitemsmod");
     public static final String MOD_ID = "senbaiitemsmod";//mod id
 
