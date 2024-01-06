@@ -20,6 +20,7 @@ public final class MusicDiscRegistry {
         }
         //创建id为music_gxfc,时长为199秒的唱片
         createAndRegisterDisc("music_gxfc", 199);
+        createAndRegisterDisc("music_ltx",129);
         //添加更多
     }
 

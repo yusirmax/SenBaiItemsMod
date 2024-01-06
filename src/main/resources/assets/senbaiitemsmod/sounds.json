@@ -4,5 +4,11 @@
     "sounds": [
       "senbaiitemsmod:music_gxfc"
     ]
+  },
+  "music_ltx": {
+    "subtitle": "subtitles.senbaiitemsmod:music_ltx",
+    "sounds": [
+      "senbaiitemsmod:music_ltx"
+    ]
   }
 }
