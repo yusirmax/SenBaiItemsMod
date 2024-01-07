@@ -10,5 +10,11 @@
     "sounds": [
       "senbaiitemsmod:music_ltx"
     ]
+  },
+  "music_cmsts": {
+    "subtitle": "subtitles.senbaiitemsmod:music_cmsts",
+    "sounds": [
+      "senbaiitemsmod:music_cmsts"
+    ]
   }
 }
