@@ -22,6 +22,6 @@ public class SenBaiItemsMod implements ModInitializer {
         ModItems.registerModItems();//注册物品类
         ModBlocks.registerModBlocks();//注册方块类
         MusicDiscRegistry.init();//注册声音类物品
-        LOGGER.info("Loaded SenBaiItems mod");
+        LOGGER.info("Loaded SenBaiItems Mod");
     }
 }
