@@ -22,6 +22,8 @@ public final class MusicDiscRegistry {
         createAndRegisterDisc("music_gxfc", 199);
         createAndRegisterDisc("music_ltx", 129);
         createAndRegisterDisc("music_cmsts", 105);
+        createAndRegisterDisc("music_backhomo", 158);
+        createAndRegisterDisc("music_ylimax", 109);
         //添加更多
     }
 
