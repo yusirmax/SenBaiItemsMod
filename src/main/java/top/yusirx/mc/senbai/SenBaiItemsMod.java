@@ -23,5 +23,6 @@ public class SenBaiItemsMod implements ModInitializer {
         ModBlocks.registerModBlocks();//注册方块类
         MusicDiscRegistry.init();//注册声音类物品
         LOGGER.info("Loaded SenBaiItems Mod");
+        LOGGER.warn("Don't play 2 discs at the same time");
     }
 }
